@@ -1,5 +1,5 @@
 <h1 align="center">
-    GVP.digital Front End Test
+    GVP.digital Front End Test<br/>
     <img src="/gvp_logo.svg" width="300"/>
 </h1>
 
