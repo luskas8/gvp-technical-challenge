@@ -1,6 +1,5 @@
 <h1 align="center">
-    GVP.digital Front End Test<br/>
-    <img src="/gvp_logo.svg" width="300"/>
+    GVP.digital Front End Test
 </h1>
 
 Teste feita para vaga de front end, na empresa GVP.digital.
