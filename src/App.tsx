@@ -1,9 +1,8 @@
 import React from 'react';
+import { Dashboard } from './pages';
 
 function App() {
-  return (
-    <h1>Hello World!</h1>
-  );
+  return <Dashboard />;
 }
 
 export default App;

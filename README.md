@@ -7,7 +7,7 @@ Teste feita para vaga de front end, na empresa GVP.digital.
 ## 🎯 Objetivos:
 
 1. Criar um protótipo de layout seguindo modelo enviado.
-O protótipo foi criado com a plataforma figma e pode ser visualizado no [link](https://www.figma.com/file/fIae3hRkm2616vVCPzopuQ/Layout-Test-GVP?node-id=4%3A182).
+O protótipo foi criado com a plataforma figma e pode ser visualizado no <a href="https://www.figma.com/file/fIae3hRkm2616vVCPzopuQ/Layout-Test-GVP?node-id=4%3A182" target="_blank">link</a>.
 2. Criar um projeto em React (framework escolhida) ou Angular com dados mockados do protótipo criado.
 
 ## ⚙️ Tecnologias utilizadas:
