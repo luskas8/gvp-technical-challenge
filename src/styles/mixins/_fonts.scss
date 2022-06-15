@@ -1,0 +1,46 @@
+@use '../base/variables';
+
+@mixin font($size: 'p', $type: 'regular') {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+
+  @if $size == 'display' {
+    font-size: $FontSizeDisplay;
+    line-height: $LineHeightDisplay;
+  } @else if $size == 'h1' {
+    font-size: $FontSizeH1;
+    line-height: $LineHeightH1;
+  } @else if $size == 'h2' {
+    font-size: $FontSizeH2;
+    line-height: $LineHeightH2;
+  } @else if $size == 'h3' {
+    font-size: $FontSizeH3;
+    line-height: $LineHeightH3;
+  } @else if $size == 'h4' {
+    font-size: $FontSizeH4;
+    line-height: $LineHeightH4;
+  } @else if $size == 'h5' {
+    font-size: $FontSizeH5;
+    line-height: $LineHeightH5;
+  } @else if $size == 'h6' {
+    font-size: $FontSizeH6;
+    line-height: $LineHeightH6;
+  } @else if $size == 'p' {
+    font-size: $FontSizeP;
+    line-height: $LineHeightP;
+  } @else if $size == 'small' {
+    font-size: $FontSizeSmall;
+    line-height: $LineHeightSmall;
+  } @else if $size == 'x-small' {
+    font-size: $FontSizeXSmall;
+    line-height: $LineHeightXSmall;
+  }
+
+  @if $type == 'regular' {
+    font-weight: $FontWeightRegular;
+  } @else if $type == 'medium' {
+    font-weight: $FontWeightMedium;
+  } @else if $type == 'bold' {
+    font-weight: $FontWeightBold;
+  }
+}

@@ -27,14 +27,14 @@ Após esse primeiro passo está na hora de ter o código em si na sua máquina, 
 git clone url
 cd gvp-technical-challenge
 yarn install
-yarn start
+yarn start:dev
 ```
 
 Mas caso você tenha optado por não instalar o `Yarn` os últimos passo vão ser diferentes e precisará usar esses comandos:
 
 ```sh
 npm install
-npm run start
+npm run start:dev
 ```
 
 ## Licença

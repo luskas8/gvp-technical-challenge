@@ -1,0 +1,49 @@
+body {
+  color: $black;
+  @include font;
+}
+
+p {
+  color: $black;
+  @include font;
+}
+
+span {
+  color: $black;
+  @include font;
+}
+
+h1 {
+  color: $black;
+  @include font('h1');
+}
+
+h2 {
+  color: $black;
+  @include font('h2');
+}
+
+h3 {
+  color: $black;
+  @include font('h3');
+}
+
+h4 {
+  color: $black;
+  @include font('h4');
+}
+
+h5 {
+  color: $black;
+  @include font('h5');
+}
+
+h6 {
+  color: $black;
+  @include font('h6');
+}
+
+small {
+  color: $black;
+  @include font('small');
+}

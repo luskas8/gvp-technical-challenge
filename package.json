@@ -10,14 +10,19 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "chart.js": "^3.8.0",
     "react": "^18.1.0",
+    "react-chartjs-2": "^4.2.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "build:sass": "node-sass src/ -o src/ ",
+    "watch:sass": "yarn build:sass && node-sass src/ -o src/ -w -r",
     "start": "react-scripts start",
+    "start:dev": "run-p watch:sass start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -39,5 +44,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/node-sass": "^4.11.2",
+    "node-sass": "^7.0.1",
+    "npm-run-all": "^4.1.5"
   }
 }
