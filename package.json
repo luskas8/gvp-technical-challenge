@@ -24,7 +24,7 @@
     "watch:sass": "yarn build:sass && node-sass src/ -o src/ -w -r",
     "start": "react-scripts start",
     "start:dev": "run-p watch:sass start",
-    "build": "run-p node-sass src/ -o src/ react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
