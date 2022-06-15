@@ -9,7 +9,7 @@ function App() {
     <LayoutProvider>
       <PageLayout>
         <Dashboard />
-      </PageLayout>;
+      </PageLayout>
     </LayoutProvider>
   )
 }
