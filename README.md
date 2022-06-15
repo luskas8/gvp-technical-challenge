@@ -8,7 +8,7 @@ Teste feita para vaga de front end, na empresa GVP.digital.
 
 1. Criar um protótipo de layout seguindo modelo enviado.
 O protótipo foi criado com a plataforma figma e pode ser visualizado no <a href="https://www.figma.com/file/fIae3hRkm2616vVCPzopuQ/Layout-Test-GVP?node-id=4%3A182" target="_blank">link</a>.
-2. Criar um projeto em React (framework escolhida) ou Angular com dados mockados do protótipo criado, que pode ser visto nest <a href="https://www.figma.com/file/fIae3hRkm2616vVCPzopuQ/Layout-Test-GVP?node-id=4%3A182](https://gvp-technical-challenge.vercel.app/" target="_blank">link</a>.
+2. Criar um projeto em React (framework escolhida) ou Angular com dados mockados do protótipo criado, que pode ser visto nest <a href="https://gvp-technical-challenge.vercel.app/" target="_blank">link</a>.
 
 ## ⚙️ Tecnologias utilizadas:
 
