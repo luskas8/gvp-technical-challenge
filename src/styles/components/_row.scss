@@ -1,17 +1,18 @@
 .row {
     width: fit-content;
     height: fit-content;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding: 0px;
     gap: 15px;
 
     &.justifyCenter {
+        display: flex;
         justify-content: center;
     }
     
     &.alignCenter {
+        display: flex;
         align-items: center;
     }
 
@@ -21,5 +22,9 @@
 
     &.fullH {
         height: calc(100% - 72px);
+    }
+
+    &.isMobile {
+        grid-template-columns: repeat(3, 1fr);
     }
 }

@@ -7,10 +7,11 @@ interface RowProps {
     alignCenter?: Boolean;
     fullW?: Boolean;
     fullH?: Boolean;
+    isMobile?: Boolean;
 }
 
-export const Row = ({ justifyCenter, alignCenter, fullH, fullW, children }: RowProps) => {
-    return <div className={classNames("row", { justifyCenter, alignCenter, fullH, fullW })}>
+export const Row = ({ justifyCenter, alignCenter, fullH, fullW, children, isMobile }: RowProps) => {
+    return <div className={classNames("row", { justifyCenter, alignCenter, fullH, fullW, isMobile })}>
         {children}
     </div>
 }

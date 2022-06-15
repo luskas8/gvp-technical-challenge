@@ -26,17 +26,15 @@
 
     &-item {
         width: 100%;
+        padding: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
 
-        &--container {
-            padding: 4px;
-            display: flex;
-            justify-content: space-between;
-            gap: 10px;
-
-            &__content {
-                @include font('small', 'bold');
-                color: $white;
-            }
+        &__content {
+            @include font('small', 'bold');
+            color: $white;
         }
     }
 }

@@ -9,10 +9,8 @@ interface ItemProps {
 export const Item = ({ text, value }: ItemProps) => {
     return (
         <div className="card-item">
-            <div className="card-item--container">
-                <div className="card-item--container__content">{text}</div>
-                {value && <Badge value={value} />}
-            </div>
+            <div className="card-item__content">{text}</div>
+            {value && <Badge value={value} />}
         </div>
     )
 }

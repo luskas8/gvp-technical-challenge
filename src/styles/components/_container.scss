@@ -10,9 +10,16 @@
     &.fullH {
         height: 100%;
     }
+
+    &.isMobile {
+        overflow-y: scroll;
+        flex-flow: column-reverse;
+        gap: 15px;
+    }
 }
 
 .container__item {
+    width: 530px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -39,5 +46,9 @@
     &.scrollY {
         overflow: hidden;
         overflow-y: scroll;
+    }
+
+    &.isMobile {
+        width: 100%;
     }
 }
