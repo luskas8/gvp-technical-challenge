@@ -1,0 +1,25 @@
+.row {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+
+    &.justifyCenter {
+        justify-content: center;
+    }
+    
+    &.alignCenter {
+        align-items: center;
+    }
+
+    &.fullW {
+        width: 100%;
+    }
+
+    &.fullH {
+        height: calc(100% - 72px);
+    }
+}

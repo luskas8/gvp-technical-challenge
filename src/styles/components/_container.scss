@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    &.fullW {
+        width: 100%;
+    }
+
+    &.fullH {
+        height: 100%;
+    }
+}
+
+.container__item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px 16px;
+    gap: 15px;
+    background: $white;
+    border-radius: 12px;
+
+    &--title {
+        padding: 18px 0px;
+        @include font('h4', 'medium');
+        color: $black;
+    }
+
+    &.fullW {
+        width: 100%;
+    }
+
+    &.fullH {
+        height: 100%;
+    }
+
+    &.scrollY {
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+}

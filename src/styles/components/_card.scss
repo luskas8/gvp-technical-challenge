@@ -1,32 +1,27 @@
 .card {
-    width: 187px;
+    width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 6px;
+    gap: 3px;
+    background: $blue;
+    border: 1px solid $blue;
+    border-radius: 6px;
 
-    &--container {
-        width: 100%;
-        height: 100%;
+    &__title {
         display: flex;
         flex-direction: column;
-        padding: 5px 6px;
-        gap: 3px;
-        background: $blue;
-        border: 1px solid $blue;
-        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 0px;
 
-        &__title {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 4px 0px;
+        @include font('h6', 'medium');
+        color: $white;
+    }
 
-            @include font('h6', 'medium');
-            color: $white;
-        }
-
-        &__content {
-            padding: 0px;
-        }
+    &__content {
+        padding: 0px;
     }
 
     &-item {

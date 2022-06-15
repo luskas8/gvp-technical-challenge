@@ -1,48 +1,48 @@
-:global {
-  html {
-    box-sizing: border-box;
-  }
+ html {
+   box-sizing: border-box;
+ }
 
-  *,
-  *::before,
-  *::after {
-    margin: 0px;
-    padding: 0px;
-    outline: 0px;
-    box-sizing: inherit;
-  }
+ *,
+ *::before,
+ *::after {
+   margin: 0px;
+   padding: 0px;
+   outline: 0px;
+   box-sizing: inherit;
+ }
 
-  html,
-  body,
-  #root {
-    & > * {
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-  }
+ html,
+ body,
+ #root {
+   box-sizing: border-box;
 
-  a,
-  a:active,
-  a:hover,
-  a:visited {
-    text-decoration: none;
-  }
+   &>* {
+     -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+   }
+ }
 
-  textarea {
-    resize: none;
-  }
+ a,
+ a:active,
+ a:hover,
+ a:visited {
+   text-decoration: none;
+ }
 
-  .row {
-    display: flex;
-    flex-direction: row;
-  }
+ textarea {
+   resize: none;
+ }
 
-  .column {
-    display: flex;
-    flex-direction: column;
-  }
-}
+ .row {
+   display: flex;
+   flex-direction: row;
+ }
+
+ .column {
+   display: flex;
+   flex-direction: column;
+ }
