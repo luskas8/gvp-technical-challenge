@@ -1,0 +1,16 @@
+.chart {
+    &--label {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+
+        @include font("small", "regular");
+
+        & span {
+            width: 10px;
+            height: 10px;
+            border-radius: 100px;
+        }
+    }
+}

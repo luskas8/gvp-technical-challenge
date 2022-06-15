@@ -540,10 +540,27 @@ textarea {
   font-weight: bold;
   color: #FFFFFF; }
 
+.chart--label {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: normal; }
+
+.chart--label span {
+  width: 10px;
+  height: 10px;
+  border-radius: 100px; }
+
 .container {
   display: flex;
   flex-direction: row;
-  align-items: flex-start; }
+  align-items: flex-start;
+  gap: 10px; }
 
 .container.fullW {
   width: 100%; }

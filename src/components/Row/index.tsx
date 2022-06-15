@@ -1,7 +1,7 @@
 import classNames from "classnames";
 import React from "react"
 
-interface RowProps {
+interface RowProps extends React.HTMLProps<HTMLDivElement>{
     children?: React.ReactNode;
     justifyCenter?: Boolean;
     alignCenter?: Boolean;
@@ -10,8 +10,8 @@ interface RowProps {
     isMobile?: Boolean;
 }
 
-export const Row = ({ justifyCenter, alignCenter, fullH, fullW, children, isMobile }: RowProps) => {
-    return <div className={classNames("row", { justifyCenter, alignCenter, fullH, fullW, isMobile })}>
+export const Row = ({ style, justifyCenter, alignCenter, fullH, fullW, children, isMobile }: RowProps) => {
+    return <div style={style} className={classNames("row", { justifyCenter, alignCenter, fullH, fullW, isMobile })}>
         {children}
     </div>
 }

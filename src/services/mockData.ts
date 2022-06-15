@@ -75,12 +75,10 @@ export const cardsData = [
 ];
 
 export const chartData = [
-    { title: "Bot", value: 38.8, color: "#CCC" },
-    { title: "Ticket", value: 16.4, color: "#000" },
-    { title: "E-mail", value: 0.0, color: "#CCC" },
-    { title: "Ticket", value: 16.4, color: "#000" },
-    { title: "WhatsApp", value: 27.8, color: "#CCC" },
-    { title: "Chat", value: 10.9, color: "#000" },
-    { title: "Ticket", value: 16.4, color: "#CCC" },
-    { title: "Ligações", value: 6.1, color: "#000" },
+    { title: "Bot", value: 38.8, color: "#5FC9F3" },
+    { title: "Ticket", value: 16.4, color: "#90E0EF" },
+    { title: "E-mail", value: 0.0, color: "#5FC9F3" },
+    { title: "WhatsApp", value: 27.8, color: "#2E79BA" },
+    { title: "Chat", value: 10.9, color: "#03045E" },
+    { title: "Ligações", value: 6.1, color: "#1E549F" },
 ]
